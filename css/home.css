@@ -1,0 +1,49 @@
+
+main .head {
+    width: 90%;
+    text-align: center;
+    margin-top: 55px;
+}
+
+main .head h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+main .head p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+main .ongs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    margin-block: 70px;
+    
+}
+
+main .ong {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+main .ong a {
+    padding: 10px 18px;
+    background-color: #000;
+    border-radius: 11px;
+    color: #fff;
+    margin-top: 26px;
+}
+
+main .ong a:hover {
+    background-color: #000000dc;
+    
+}
+
+main .ong img {
+    width: 100%;
+}
