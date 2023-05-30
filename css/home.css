@@ -31,17 +31,9 @@ main .ong {
 
 }
 
-main .ong a {
-    padding: 10px 18px;
-    background-color: #000;
-    border-radius: 11px;
-    color: #fff;
+.btn {
     margin-top: 26px;
-}
 
-main .ong a:hover {
-    background-color: #000000dc;
-    
 }
 
 main .ong img {

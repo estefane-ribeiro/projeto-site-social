@@ -1,0 +1,50 @@
+.ong {
+    display: grid;
+    grid-template-areas: 'titulo titulo titulo titulo'
+                        'sobre img help doar';
+    gap: 15px;
+    align-items:start;
+    justify-content: center;
+    width: 90%;
+    padding-top: 38px;
+}
+
+.ong > h1 {
+    grid-area: titulo;
+    text-align: center;
+}
+
+.ong > .sobre {
+    grid-area: sobre;
+}
+
+.ong p {
+    text-align: justify;
+}
+
+.ong .img {
+    grid-area: img;
+    width: 256px;
+    height: 256px;
+    background-color: #c4c4c4;
+}
+
+.ong div.help {
+    grid-area: help;
+}
+
+.ong .doar {
+    grid-area: doar;
+    text-align: center;
+}
+
+.ong .doar div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-block:5px;
+    justify-content: center;
+}
+.ong div {
+    text-align: center;
+}

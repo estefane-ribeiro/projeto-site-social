@@ -55,14 +55,29 @@ header ul {
 header ul a {
     font-size: 20px;
     color: #000;
+    transition: 0.5s;
 
 }
 
-
+header ul a:hover {
+    color: #696868dc;
+}
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.btn {
+    padding: 10px 18px;
+    background-color: #000;
+    border-radius: 11px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #000000dc;
+    
 }
